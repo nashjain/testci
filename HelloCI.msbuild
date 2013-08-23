@@ -31,6 +31,6 @@
     <Exec Command='"@(NUnitConsole)" @(UnitTestsDLL) /xml=@(TestResultsPath)' />
   </Target>
 
-<Target Name="Rebuild" DependsOnTargets="Compile"></Target>
+<Target Name="Rebuild" DependsOnTargets="RunUnitTests"></Target>
 <Target Name="AfterBuild"></Target>
 </Project>
