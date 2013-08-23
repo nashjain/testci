@@ -32,4 +32,5 @@
   </Target>
 
 <Target Name="Rebuild" DependsOnTargets="Compile"></Target>
+<Target Name="AfterBuild"></Target>
 </Project>
